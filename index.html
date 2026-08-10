@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portofolio Miftahul Shidiq, siswa RPL yang membuat website responsif dan mobile-friendly." />
+  <title>Miftahul Shidiq</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:ital,wght@0,500;0,600;1,500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header class="site-header" id="siteHeader">
+    <div class="container header-inner">
+      <a href="#home" class="brand">Miftahul Shidiq</a>
+
+      <nav class="main-nav" id="mainNav" aria-label="Navigasi utama">
+        <a href="#tentang">Tentang</a>
+        <a href="#keahlian">Keahlian</a>
+        <a href="#karya">Karya</a>
+        <a href="#kontak">Kontak</a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="theme-toggle" id="themeToggle" aria-label="Ganti tema" title="Ganti tema">
+          <svg class="tt-icon" viewBox="0 0 24 24" aria-hidden="true">
+            <circle cx="12" cy="12" r="4"></circle>
+            <path d="M12 2v2m0 16v2M4.93 4.93l1.41 1.41m11.32 11.32l1.41 1.41M2 12h2m16 0h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path>
+          </svg>
+          <svg class="tt-icon" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+          <span class="tt-thumb">
+            <svg class="icon-sun" viewBox="0 0 24 24" aria-hidden="true">
+              <circle cx="12" cy="12" r="4"></circle>
+              <path d="M12 2v2m0 16v2M4.93 4.93l1.41 1.41m11.32 11.32l1.41 1.41M2 12h2m16 0h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path>
+            </svg>
+            <svg class="icon-moon" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+          </span>
+        </button>
+
+        <button class="nav-toggle" id="navToggle" aria-label="Buka menu" aria-expanded="false" aria-controls="mainNav">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="container">
+        <p class="hero-intro">Siswa RPL XI · Tamansiswa 2 Jakarta Pusat</p>
+        <h1 class="hero-title">Miftahul Shidiq.</h1>
+        <p class="hero-sub">
+          Belajar coding sejak SD, sekarang fokus membuat website, game, dan script yang
+          rapi serta nyaman dipakai di semua perangkat.
+        </p>
+        <div class="hero-actions">
+          <a href="#karya" class="btn">Lihat Karya</a>
+          <a href="#kontak" class="btn btn-ghost">Kontak</a>
+        </div>
+
+        <ul class="hero-facts">
+          <li>Belajar coding sejak SD</li>
+          <li>3 projek telah dibuat</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="tentang" class="section">
+      <div class="container">
+        <p class="label">Tentang</p>
+        <div class="prose reveal">
+          <h2>Saya mulai belajar coding sejak masih SD — awalnya cuma coba-coba, sekarang jadi hal yang saya suka.</h2>
+          <p>
+            Halo, nama saya Miftahul Shidiq, siswa RPL XI dari Tamansiswa 2 Jakarta Pusat.
+          </p>
+          <p>
+            Ketertarikan saya pada dunia pemrograman dimulai sejak SD, waktu itu masih sebatas
+            iseng dan coba-coba — mulai dari hal seperti VIRTEX (virus text) yang biasa dipakai
+            untuk iseng ke teman. Dari situ saya terus belajar dan berkembang, hingga sekarang
+            terbiasa bekerja dengan HTML, CSS, Python, Lua, dan mengelola database.
+          </p>
+          <p>
+            Bagi saya, coding bukan sekadar keterampilan — tapi cara untuk menuangkan ide menjadi
+            sesuatu yang nyata dan bisa dinikmati orang lain.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="keahlian" class="section section-tinted">
+      <div class="container">
+        <p class="label">Keahlian</p>
+        <ul class="skill-list reveal">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Python</li>
+          <li>Lua</li>
+          <li>Database</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="karya" class="section">
+      <div class="container">
+        <p class="label">Karya</p>
+
+        <div class="work-list reveal">
+          <a href="#" class="work-item">
+            <div>
+              <h3>Roblox Script</h3>
+              <p>Game system, UI, dan mekanik gameplay di Roblox Studio menggunakan bahasa Lua.</p>
+            </div>
+            <span class="work-meta">Lua</span>
+          </a>
+
+          <a href="#" class="work-item">
+            <div>
+              <h3>Web Store</h3>
+              <p>Toko online sederhana dengan layout rapi, dibangun dari HTML dan CSS.</p>
+            </div>
+            <span class="work-meta">HTML &amp; CSS</span>
+          </a>
+
+          <a href="#" class="work-item">
+            <div>
+              <h3>Game Dev</h3>
+              <p>Membuat game kecil-kecilan menggunakan Python sebagai eksplorasi dan latihan logika.</p>
+            </div>
+            <span class="work-meta">Python</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="kontak" class="section section-tinted">
+      <div class="container contact">
+        <p class="label">Kontak</p>
+        <h2 class="contact-title">Siap berdiskusi atau berkolaborasi?</h2>
+        <p class="contact-text">
+          Untuk projek sekolah, tugas, atau sekadar bertanya seputar web — saya terbuka.
+        </p>
+        <a href="mailto:uulasto@email.com" class="contact-email">uulasto@email.com</a>
+        <div class="contact-links">
+          <a href="https://github.com/miftahul-shidiq" target="_blank" rel="noopener">GitHub</a>
+          <span aria-hidden="true">·</span>
+          <a href="https://instagram.com" target="_blank" rel="noopener">Instagram</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© 2026 Miftahul Shidiq</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
